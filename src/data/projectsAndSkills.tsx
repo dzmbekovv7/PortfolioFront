@@ -13,7 +13,8 @@ import dogs from '../assets/images/dogs.png'
 import vspools from '../assets/images/vspools.png'
 import gre2usa from '../assets/images/gre2usa.png'
 import smarthome from '../assets/images/smarthome.png'
-
+import msmoney from '../assets/images/msmoney.png'
+import fitness from '../assets/images/fitness.png'
 
 type Project = {
   id: number
@@ -73,6 +74,44 @@ export const projects: Project[] = [
     ],
     demoVideo: '',
     status: 'поддержка',
+  },
+    {
+    id: 10,
+    title: 'MsMoney',
+    description: 'Интерактивная платформа для изучения грамматики английского с тестами и практикой.',
+    image: msmoney,
+    stack: 'React, TS + Vite, Tailwind CSS',
+    link: 'https://ms-money.vercel.app/',
+    github: 'https://github.com/username/grammar-nerd',
+    year: 2023,
+    role: 'Frontend Developer',
+    features: [
+      'Интерактивные тесты',
+      'Подсказки и объяснения',
+      'Статистика прогресса',
+      'Система достижений и наград',
+    ],
+    demoVideo: 'https://youtu.be/example2',
+    status: 'завершён',
+  },
+    {
+    id: 10,
+    title: 'Fitness Blog',
+    description: 'Интерактивная платформа для изучения грамматики английского с тестами и практикой.',
+    image: fitness,
+    stack: 'React, TS + Vite, Tailwind CSS',
+    link: 'https://grammar-nerd.vercel.app/',
+    github: 'https://fitness-six-dusky.vercel.app/',
+    year: 2023,
+    role: 'Fullstack Developer',
+    features: [
+      'Интерактивные тесты',
+      'Подсказки и объяснения',
+      'Статистика прогресса',
+      'Система достижений и наград',
+    ],
+    demoVideo: 'https://youtu.be/example2',
+    status: 'завершён',
   },
   {
     id: 10,

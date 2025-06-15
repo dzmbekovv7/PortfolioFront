@@ -234,7 +234,7 @@ console.log(project)
           )}
 
           {/* Кнопка GitHub */}
-          {project.github && (
+          {/* {project.github && (
             <motion.a
               href={project.github}
               target="_blank"
@@ -247,7 +247,7 @@ console.log(project)
               <FiGithub size={20} />
               Исходный код на GitHub
             </motion.a>
-          )}
+          )} */}
         </aside>
       </main>
     </div>
