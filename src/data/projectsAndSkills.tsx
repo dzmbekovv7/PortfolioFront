@@ -78,7 +78,7 @@ export const projects: Project[] = [
     {
     id: 10,
     title: 'MsMoney',
-    description: 'Интерактивная платформа для изучения грамматики английского с тестами и практикой.',
+description: 'Образовательный блог о финансах: от личного бюджета и инвестиций до психологии денег и лайфхаков по экономии.',
     image: msmoney,
     stack: 'React, TS + Vite, Tailwind CSS',
     link: 'https://ms-money.vercel.app/',
@@ -97,7 +97,7 @@ export const projects: Project[] = [
     {
     id: 10,
     title: 'Fitness Blog',
-    description: 'Интерактивная платформа для изучения грамматики английского с тестами и практикой.',
+description: 'Блог о фитнесе с актуальными статьями, программами тренировок, советами по питанию и современным UI/UX-дизайном.',
     image: fitness,
     stack: 'React, TS + Vite, Tailwind CSS',
     link: 'https://grammar-nerd.vercel.app/',

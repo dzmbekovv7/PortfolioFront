@@ -61,7 +61,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ themeColors }) => {
         style={{ color: themeColors.textColor }}
       >
         <h3
-          className="minecraft-font text-3xl font-bold mb-6 border-b border-pink-600 pb-2 select-text drop-shadow-md"
+          className="minecraft-font md:text-3xl text-l font-bold mb-6 border-b border-pink-600 pb-2 select-text drop-shadow-md"
           style={{ color: themeColors.sparkle }}
         >
           Контакты
@@ -70,24 +70,24 @@ const ContactForm: React.FC<ContactFormProps> = ({ themeColors }) => {
           <input
             type="text"
             placeholder="Ваше имя"
-            className="w-full p-3 rounded-lg bg-white bg-opacity-50 border border-gray-400 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-pink-500 minecraft-font"
+            className="w-full p-3 rounded-lg bg-white bg-opacity-50 border border-gray-400 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-pink-500 "
             style={{ color: themeColors.textColor }}
           />
           <input
             type="email"
             placeholder="Ваш email"
-            className="w-full p-3 rounded-lg bg-white bg-opacity-50 border border-gray-400 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-pink-500 minecraft-font"
+            className="w-full p-3 rounded-lg bg-white bg-opacity-50 border border-gray-400 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-pink-500 "
             style={{ color: themeColors.textColor }}
           />
           <textarea
             placeholder="Сообщение"
             rows={5}
-            className="w-full p-3 rounded-lg bg-white bg-opacity-50 border border-gray-400 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-pink-500 minecraft-font resize-none"
+            className="w-full p-3 rounded-lg bg-white bg-opacity-50 border border-gray-400 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-pink-500  resize-none"
             style={{ color: themeColors.textColor }}
           />
           <button
             type="submit"
-            className="w-full py-3 transition-colors rounded-lg text-white font-bold minecraft-font shadow-lg shadow-pink-500/60"
+            className="w-full py-3 transition-colors rounded-lg text-white font-bold  shadow-lg shadow-pink-500/60"
             style={{ color: themeColors.sparkle }}
           >
             Отправить
