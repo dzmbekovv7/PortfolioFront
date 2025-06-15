@@ -1,6 +1,5 @@
-import React from 'react'
 import { motion } from 'framer-motion'
-import { FiCalendar, FiClock } from 'react-icons/fi'
+import { FiCalendar } from 'react-icons/fi'
 import languago from '../assets/languago.png'
 import ecotravel from '../assets/ecotravel.png'
 import smartgarden from '../assets/smartgarden.png'

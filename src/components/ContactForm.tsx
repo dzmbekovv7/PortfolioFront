@@ -1,4 +1,6 @@
-import React, { useRef, FormEvent } from 'react';
+import React, { useRef } from 'react';
+import type { FormEvent } from 'react';
+
 import toast from 'react-hot-toast';
 import axios from 'axios';
 

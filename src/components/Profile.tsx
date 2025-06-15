@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react'
+import { forwardRef } from 'react'
 import myphoto from '../assets/myphoto.jpg'
 
 type ProfileSectionProps = {
