@@ -22,10 +22,7 @@ const LINKS = [
 		label: 'Home',
 		href: '/',
 	},
-	{
-		label: 'About',
-		href: '/about',
-	},
+
 	{
 		label: 'Blog',
 		href: '/blog',
