@@ -32,7 +32,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ themeColors }) => {
     const loadingToastId = toast.loading('Отправляем...');
 
     try {
-      const res = await axios.post('http://localhost:3000/api/mail/contact', {
+      const res = await axios.post('https://portfolioback-8896.onrender.com/api/mail/contact', {
         name: name.value.trim(),
         email: email.value.trim(),
         message: message.value.trim(),
