@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { projects } from '../data/projectsAndSkills'
 import { motion } from 'framer-motion'
-import { FiAlertTriangle, FiArrowLeft, FiGithub, FiCalendar, FiUser } from 'react-icons/fi'
+import { FiAlertTriangle, FiArrowLeft, FiCalendar, FiUser } from 'react-icons/fi'
 
 type ThemeColors = {
   shadowColor: string
