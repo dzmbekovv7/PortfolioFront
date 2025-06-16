@@ -15,7 +15,8 @@ import gre2usa from '../assets/images/gre2usa.png'
 import smarthome from '../assets/images/smarthome.png'
 import msmoney from '../assets/images/msmoney.png'
 import fitness from '../assets/images/fitness.png'
-
+import infopeluang from '../assets/images/infopeluang.png'
+import newSound from '../assets/images/101newSound.png'
 type Project = {
   id: number
   title: string
@@ -54,6 +55,46 @@ export const projects: Project[] = [
       'Фильтрация и сортировка задач',
     ],
     demoVideo: 'https://youtu.be/example1',
+    status: 'завершён',
+  },
+    {
+    id: 14,
+    title: 'InfoPeluangUsaha',
+    description:
+      'Платформа для предпринимателей, предоставляющая проверенные бизнес-возможности, стратегические партнёрства и рыночную аналитику.',
+    image: infopeluang, // Замените на актуальное изображение
+    stack: 'React, TS + Vite, Tailwind CSS',
+    link: 'https://info-peluang-beryl.vercel.app/',
+    github: '',
+    year: 2024,
+    role: 'Fullstack Developer',
+    features: [
+      'Каталог бизнес-возможностей',
+      'Публикация статей и советов',
+      'Поиск агентов и инвесторов',
+      'Бесплатная регистрация и доступ к информации',
+    ],
+    demoVideo: '',
+    status: 'в разработке',
+  },
+  {
+    id: 15,
+    title: '101soundMusic',
+    description:
+      'Музыкальный блог-сайт с новостями, рецензиями, интервью и обзорами музыкальных событий.',
+    image: newSound, // Замените на актуальное изображение
+    stack: 'React, TS + Vite, Tailwind CSS',
+    link: 'https://101new-sound.vercel.app/',
+    github: 'https://github.com/username/101soundMusic',
+    year: 2024,
+    role: 'Frontend Developer',
+    features: [
+      'Статьи и рецензии о музыке',
+      'Современный дизайн с анимациями',
+      'Категории и фильтры по жанрам',
+      'Адаптивность под мобильные устройства',
+    ],
+    demoVideo: '',
     status: 'завершён',
   },
   {
