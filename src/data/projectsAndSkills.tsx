@@ -95,6 +95,7 @@ export const projects: Project[] = [
   github: '',
   year: 2024,
   role: 'Fullstack Developer',
+      warning: 'Проект находится в бета-версии — возможны ошибки.',
   features: [
     'Современный интерфейс, вдохновлённый Spotify',
     'Пользовательская аутентификация и личные аккаунты',
