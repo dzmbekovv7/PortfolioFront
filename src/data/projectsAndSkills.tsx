@@ -1,6 +1,7 @@
 import { FaReact, FaNodeJs, FaPython, FaDocker, FaGitAlt, FaDatabase } from 'react-icons/fa'
 import { SiExpress, SiTypescript, SiDjango, SiTailwindcss, SiPostgresql, SiJavascript, SiMongodb, SiRedux, SiVite } from 'react-icons/si'
-
+import atlan from '../assets/images/atlantisku.png'
+import weather from '../assets/images/weatherapp.png'
 import bookdragon from '../assets/images/bookdragon.png'
 import postinkg from '../assets/images/postinkg.png'
 import realtime from '../assets/images/realtimechat.png'
@@ -195,6 +196,44 @@ description: 'Блог о фитнесе с актуальными статья�
     github: 'https://github.com/username/grammar-nerd',
     year: 2023,
     role: 'Fullstack Developer',
+    features: [
+      'Интерактивные тесты',
+      'Подсказки и объяснения',
+      'Статистика прогресса',
+      'Система достижений и наград',
+    ],
+    demoVideo: 'https://youtu.be/example2',
+    status: 'завершён',
+  },
+    {
+    id: 18,
+    title: 'Atlantisku',
+    description: 'Интерактивная платформа для изучения грамматики английского с тестами и практикой.',
+    image: atlan,
+    stack: 'React, TS + Vite, Tailwind CSS',
+    link: 'https://atlanticku.vercel.app',
+    github: 'https://github.com/username/grammar-nerd',
+    year: 2023,
+    role: 'Frontend Developer',
+    features: [
+      'Интерактивные тесты',
+      'Подсказки и объяснения',
+      'Статистика прогресса',
+      'Система достижений и наград',
+    ],
+    demoVideo: 'https://youtu.be/example2',
+    status: 'завершён',
+  },
+    {
+    id: 19,
+    title: 'Weather App',
+    description: 'Интерактивная платформа для изучения грамматики английского с тестами и практикой.',
+    image: weather,
+    stack: 'React, TS + Vite, Tailwind CSS',
+    link: 'https://weather-app-5gn1.vercel.app',
+    github: 'https://github.com/username/grammar-nerd',
+    year: 2023,
+    role: 'Frontend Developer',
     features: [
       'Интерактивные тесты',
       'Подсказки и объяснения',
