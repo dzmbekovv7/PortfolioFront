@@ -94,7 +94,32 @@ console.log(project)
               draggable={false}
             />
           </motion.div>
-
+          <motion.div
+            className="w-full rounded-lg overflow-hidden border-4 border-indigo-600 shadow-lg"
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.7 }}
+          >
+            <img
+              src={project.extraImage}
+              alt={project.title}
+              className="w-full object-cover max-h-[400px]"
+              draggable={false}
+            />
+          </motion.div>
+                    <motion.div
+            className="w-full rounded-lg overflow-hidden border-4 border-indigo-600 shadow-lg"
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.7 }}
+          >
+            <img
+              src={project.extraImage2}
+              alt={project.title}
+              className="w-full object-cover max-h-[400px]"
+              draggable={false}
+            />
+          </motion.div>
           <motion.p
             className="mt-8 text-lg leading-relaxed text-white/90 font-light text-center max-w-3xl"
             initial={{ opacity: 0 }}

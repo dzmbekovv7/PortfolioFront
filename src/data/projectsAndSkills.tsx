@@ -17,6 +17,9 @@ import msmoney from '../assets/images/msmoney.png'
 import fitness from '../assets/images/fitness.png'
 import infopeluang from '../assets/images/infopeluang.png'
 import newSound from '../assets/images/101newSound.png'
+import admindashboard from '../assets/images/admindashboard.png'
+import chatspotfiy from '../assets/images/chatspotify.png'
+import spotifyImage from '../assets/images/sportify.png'
 type Project = {
   id: number
   title: string
@@ -34,6 +37,8 @@ type Project = {
   highlights?: string[]
   credentials?: { login: string; password: string }
   warning?: string
+  extraImage?: string
+  extraImage2?: string
 }
 
 
@@ -77,6 +82,31 @@ export const projects: Project[] = [
     demoVideo: '',
     status: 'в разработке',
   },
+{
+  id: 16,
+  title: 'SpotifyClone',
+  description:
+    'Мощная музыкальная платформа с современным дизайном в стиле Spotify. Поддерживает воспроизведение музыки, личные плейлисты, админ-панель и чат в реальном времени — всё для полноценного музыкального опыта.',
+  image: spotifyImage, // замените на актуальное изображение
+  extraImage: admindashboard,
+  extraImage2: chatspotfiy,
+  stack: 'React, Node.js, TypeScript, MongoDB, Socket.IO',
+  link: 'https://spotify-front-tau.vercel.app',
+  github: '',
+  year: 2024,
+  role: 'Fullstack Developer',
+  features: [
+    'Современный интерфейс, вдохновлённый Spotify',
+    'Пользовательская аутентификация и личные аккаунты',
+    'Админ-дешборд для управления треками и пользователями',
+    'Онлайн-чат в реальном времени с использованием Socket.IO',
+    'Воспроизведение музыки и создание плейлистов',
+    'Реактивный дизайн, адаптивный под все устройства'
+  ],
+  demoVideo: '',
+  status: 'в разработке',
+},
+
   {
     id: 15,
     title: '101soundMusic',
