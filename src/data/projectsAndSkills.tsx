@@ -252,7 +252,7 @@ description: 'Блог о фитнесе с актуальными статья�
   description: 'Блог-сайт, посвящённый автомобилям — обзоры, советы и статьи об авто.',
   image: cebuauto,
   stack: 'React, TS + Vite, Tailwind CSS',
-  link: 'https://cebuauto.vercel.app',
+  link: 'https://cebu-auto.vercel.app',
   github: 'https://github.com/username/cebuauto',
   year: 2023,
   role: 'Frontend Developer',
