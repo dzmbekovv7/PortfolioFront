@@ -22,6 +22,8 @@ import admindashboard from '../assets/images/admindashboard.png'
 import chatspotfiy from '../assets/images/chatspotify.png'
 import spotifyImage from '../assets/images/sportify.png'
 import cebuauto from '../assets/images/cebuauto.png'
+import les from '../assets/images/LesLocataires.png'
+import bestdogbreeds from '../assets/images/BestDogBreeds.png'
 type Project = {
   id: number
   title: string
@@ -251,6 +253,44 @@ description: 'Блог о фитнесе с актуальными статья�
   image: cebuauto,
   stack: 'React, TS + Vite, Tailwind CSS',
   link: 'https://cebuauto.vercel.app',
+  github: 'https://github.com/username/cebuauto',
+  year: 2023,
+  role: 'Frontend Developer',
+  features: [
+    'Публикации с фотографиями',
+    'Сортировка по категориям',
+    'Поиск по ключевым словам',
+    'Стильный адаптивный интерфейс',
+  ],
+  demoVideo: 'https://youtu.be/example2',
+  status: 'завершён',
+},
+{
+  id: 21,
+  title: 'BestDogBreeds',
+  description: 'Информационный блог о породах собак: обзоры, советы по уходу и воспитанию, а также статьи для любителей собак с удобным поиском и фильтрами.',
+  image: bestdogbreeds,
+  stack: 'React, TS + Vite, Tailwind CSS',
+  link: 'https://best-dog-breeds-five.vercel.app',
+  github: 'https://github.com/username/cebuauto',
+  year: 2023,
+  role: 'Frontend Developer',
+  features: [
+    'Публикации с фотографиями',
+    'Сортировка по категориям',
+    'Поиск по ключевым словам',
+    'Стильный адаптивный интерфейс',
+  ],
+  demoVideo: 'https://youtu.be/example2',
+  status: 'завершён',
+},
+{
+  id: 22,
+  title: 'LesLocataires',
+  description: 'Блог о недвижимости и аренде жилья: обзоры, советы и полезные статьи с удобным поиском и фильтрацией по категориям.',
+  image: les,
+  stack: 'React, TS + Vite, Tailwind CSS',
+  link: 'https://les-locataires-five.vercel.app',
   github: 'https://github.com/username/cebuauto',
   year: 2023,
   role: 'Frontend Developer',
