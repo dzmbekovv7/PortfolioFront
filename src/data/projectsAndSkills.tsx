@@ -23,6 +23,7 @@ import chatspotfiy from '../assets/images/chatspotify.png'
 import spotifyImage from '../assets/images/sportify.png'
 import cebuauto from '../assets/images/cebuauto.png'
 import les from '../assets/images/LesLocataires.png'
+import biabia from '../assets/images/biabia.png'
 import bestdogbreeds from '../assets/images/BestDogBreeds.png'
 type Project = {
   id: number
@@ -303,7 +304,26 @@ description: 'Блог о фитнесе с актуальными статья�
   demoVideo: 'https://youtu.be/example2',
   status: 'завершён',
 },
-
+{
+  id: 23,
+  title: 'BiaBia',
+  description: 'Блог об урбанизации и развитии городов: аналитика, обзоры, советы и полезные статьи с удобным поиском и фильтрацией по категориям.',
+  image: biabia,
+  stack: 'React, TS + Vite, Tailwind CSS',
+  link: 'https://bia-bia.vercel.app/',
+  github: 'https://github.com/username/cebuauto',
+  year: 2023,
+  role: 'Frontend Developer',
+  features: [
+    'Публикации с фотографиями',
+    'Сортировка по категориям',
+    'Поиск по ключевым словам',
+    'Стильный адаптивный интерфейс',
+  ],
+  demoVideo: 'https://youtu.be/example2',
+  status: 'завершён',
+}
+,
   {
     id: 2,
     title: 'PostInKG',
