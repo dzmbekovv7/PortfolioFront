@@ -4,6 +4,7 @@ import atlan from '../assets/images/atlantisku.png'
 import weather from '../assets/images/weatherapp.png'
 import bookdragon from '../assets/images/bookdragon.png'
 import postinkg from '../assets/images/postinkg.png'
+import bat from '../assets/images/bat.png'
 import realtime from '../assets/images/realtimechat.png'
 import grammar from '../assets/images/grammar.png'
 import learnitfree from '../assets/images/learnitfree.png'
@@ -17,6 +18,7 @@ import smarthome from '../assets/images/smarthome.png'
 import msmoney from '../assets/images/msmoney.png'
 import fitness from '../assets/images/fitness.png'
 import infopeluang from '../assets/images/infopeluang.png'
+import momproject from '../assets/images/momproject.png'
 import newSound from '../assets/images/101newSound.png'
 import admindashboard from '../assets/images/admindashboard.png'
 import chatspotfiy from '../assets/images/chatspotify.png'
@@ -25,6 +27,7 @@ import cebuauto from '../assets/images/cebuauto.png'
 import les from '../assets/images/LesLocataires.png'
 import biabia from '../assets/images/biabia.png'
 import bestdogbreeds from '../assets/images/BestDogBreeds.png'
+import exam from '../assets/images/exam.png'
 type Project = {
   id: number
   title: string
@@ -319,6 +322,65 @@ description: 'Блог о фитнесе с актуальными статья�
     'Сортировка по категориям',
     'Поиск по ключевым словам',
     'Стильный адаптивный интерфейс',
+  ],
+  demoVideo: 'https://youtu.be/example2',
+  status: 'завершён',
+}
+,
+{
+  id: 24,
+  title: 'CCNAEXAM',
+  description: 'Блог, посвящённый подготовке к IT-сертификациям, таким как CCNA. Полезные статьи, обзоры экзаменационных тем, советы по учебе и стратегии прохождения тестов. Удобный поиск и фильтрация помогают быстро находить нужный материал.',
+  image: exam,
+  stack: 'React, TS + Vite, Tailwind CSS',
+  link: 'https://ccnaexam.vercel.app',
+  github: 'https://github.com/username/cebuauto',
+  year: 2023,
+  role: 'Frontend Developer',
+  features: [
+    'Подробные публикации с иллюстрациями и примерами',
+    'Сортировка статей по категориям и уровню сложности',
+    'Поиск по ключевым словам и темам',
+    'Современный адаптивный и интуитивный дизайн',
+  ],
+  demoVideo: 'https://youtu.be/example2',
+  status: 'завершён',
+}
+,
+{
+  id: 24,
+  title: 'CZASMSMY',
+  description: 'Блог для мам и нянек — советы по уходу за детьми, лайфхаки для родителей, рекомендации по развитию малышей и организация повседневной жизни. Удобный поиск и сортировка помогают быстро находить нужную информацию.',
+  image: momproject,
+  stack: 'React, TS + Vite, Tailwind CSS',
+  link: 'https://czasmsmy-six.vercel.app',
+  github: 'https://github.com/username/cebuauto',
+  year: 2023,
+  role: 'Frontend Developer',
+  features: [
+    'Полезные статьи и инструкции по уходу за детьми',
+    'Советы от опытных нянек и мам',
+    'Поиск по ключевым словам и категориям',
+    'Адаптивный дизайн для комфортного чтения на любых устройствах',
+  ],
+  demoVideo: 'https://youtu.be/example2',
+  status: 'завершён',
+},
+{
+  id: 25,
+  title: 'BAT',
+  description: 'Блог о инженерии и строительстве — обзоры технологий, современные решения, советы профессионалов и аналитика рынка. Помогает инженерам и строителям быть в курсе трендов и улучшать качество проектов.',
+  image: bat,
+  stack: 'React, TS + Vite, Tailwind CSS',
+  link: 'https://bat-theta.vercel.app',
+  github: 'https://github.com/username/bat-project',
+  year: 2023,
+  role: 'Frontend Developer',
+  features: [
+    'Аналитические статьи и обзоры новинок строительных технологий',
+    'Практические советы и кейсы из инженерной практики',
+    'Удобный поиск и фильтрация материалов',
+    'Современный и адаптивный дизайн интерфейса',
   ],
   demoVideo: 'https://youtu.be/example2',
   status: 'завершён',
